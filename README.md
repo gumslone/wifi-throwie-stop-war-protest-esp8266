@@ -37,7 +37,22 @@ for ESP8266 you can use command like this:
 once its flashed hit the reset button and upload the files from the files folder. 
 
 To upload the files you can use the nodemcu-uploader python package https://github.com/kmpm/nodemcu-uploader
+Optionaly you can use the ESPlorer tool with UI.
 
-```nodemcu-uploader --baud 115200 --port /dev/cu.usbserial-1410 upload ./CaptiveIntraweb/files/*```
+```nodemcu-uploader --baud 115200 --port /dev/usbport upload ./CaptiveIntraweb/files/*```
 
 Hit reset and the wifi app will start.
+
+If something has gone wrong during your flashing / uploading process, here are the commands to erase flash and delete files.
+
+To erase flash:
+```esptool.py --port=/dev/usbport  erase_flash```
+
+To format the file system:
+```nodemcu-uploader --baud 115200 --port /dev/usbport file format```
+
+You can edit the index.htm and add your contents to it.
+To change the AP name edit the init.lua file.
+For the audio file please use texttospeech services like narakeet https://www.narakeet.com/languages/ukrainian-text-to-speech/
+
+Please keep in mind that the module has a limited memory and unable to handle large files.
