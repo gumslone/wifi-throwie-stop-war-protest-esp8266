@@ -1,19 +1,19 @@
 # wifi-throwie-stop-war-protest-esp8266
 an ESP8266/ESP8285 based digital protest throwie
 
-**How does it work?
+<b>How does it work?</b>
 
 It creates an unprotected wifi ap of your desired name and routes all the traffic when the user connects to the ap to the index.htm file.
 
 When user clicks some area on the page the audio.mp3 will play.
 
-**What's required?
+<b>What's required?</b>
 
 Any esp8266 or 8285 module (I recommend to use NodeMcu or WeMos development boards for unexpirienced users).
 
 Development boards are easy to flash/program and can be powered from USB interface directly.
 
-**How to set it up?
+<b>How to set it up?</b>
 
 First flash the firmware.bin binary file with esptool.py
 
