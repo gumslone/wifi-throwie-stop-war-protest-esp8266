@@ -43,7 +43,7 @@ once its flashed hit the reset button and upload the files from the files folder
 
 To upload the files you can use the nodemcu-uploader python package https://github.com/kmpm/nodemcu-uploader
 
-Optionaly you can use the ESPlorer tool with UI.
+Optionaly you can use the ESPlorer tool with UI: https://github.com/4refr0nt/ESPlorer/releases
 
 ```nodemcu-uploader --baud 115200 --port /dev/usbport upload ./CaptiveIntraweb/files/*```
 
