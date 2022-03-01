@@ -15,6 +15,8 @@ Development boards are easy to flash/program and can be powered from USB interfa
 
 <b>How to set it up?</b>
 
+<b>Flash</b>
+
 First flash the firmware.bin binary file with esptool.py
 
 install the python esptool.py package from here https://github.com/espressif/esptool
@@ -36,6 +38,8 @@ for ESP8266 you can use command like this:
 ```esptool.py --port=/dev/usbport  write_flash 0x00000 ./path/firmware/firmware.bin```
 
 once its flashed hit the reset button and upload the files from the files folder. 
+
+<b>Upload files</b>
 
 To upload the files you can use the nodemcu-uploader python package https://github.com/kmpm/nodemcu-uploader
 
