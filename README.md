@@ -3,12 +3,14 @@ an ESP8266/ESP8285 based digital protest throwie
 
 How does it work?
 
-It creates an unprotected wifi ap of your desired name and routes all the traffic when the user connects to the ap to the index.htm file. 
+It creates an unprotected wifi ap of your desired name and routes all the traffic when the user connects to the ap to the index.htm file.
+
 When user clicks some area on the page the audio.mp3 will play.
 
 Whats required?
 
 Any esp8266 or 8285 module (I recommend to use NodeMcu or WeMos development boards for unexpirienced users).
+
 Development boards are easy to flash/program and can be powered from USB interface directly.
 
 How to set it up?
@@ -37,6 +39,7 @@ for ESP8266 you can use command like this:
 once its flashed hit the reset button and upload the files from the files folder. 
 
 To upload the files you can use the nodemcu-uploader python package https://github.com/kmpm/nodemcu-uploader
+
 Optionaly you can use the ESPlorer tool with UI.
 
 ```nodemcu-uploader --baud 115200 --port /dev/usbport upload ./CaptiveIntraweb/files/*```
@@ -52,7 +55,9 @@ To format the file system:
 ```nodemcu-uploader --baud 115200 --port /dev/usbport file format```
 
 You can edit the index.htm and add your contents to it.
+
 To change the AP name edit the init.lua file.
+
 For the audio file please use texttospeech services like narakeet https://www.narakeet.com/languages/ukrainian-text-to-speech/
 
 Please keep in mind that the module has a limited memory and unable to handle large files.
