@@ -28,10 +28,10 @@ Hold the flash button and hit thee reset button, then release the flash button.
 
 for ESP8285 use command like this:
 
-`esptool.py --port=/dev/usbport  write_flash -fm dout 0x00000 ./path/firmware/firmware.bin`
+```esptool.py --port=/dev/usbport  write_flash -fm dout 0x00000 ./path/firmware/firmware.bin```
 
 for ESP8266 you can use command like this:
 
-`esptool.py --port=/dev/usbport  write_flash 0x00000 ./path/firmware/firmware.bin
+```esptool.py --port=/dev/usbport  write_flash 0x00000 ./path/firmware/firmware.bin```
 
 once its flashed hit the reset button and upload the files from the files folder. 
