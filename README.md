@@ -34,4 +34,4 @@ for ESP8266 you can use command like this:
 
 esptool.py --port=/dev/usbport  write_flash 0x00000 ./path/firmware/firmware.bin
 
-once its flashed upload the files from
+once its flashed hit the reset button and upload the files from the files folder. 
