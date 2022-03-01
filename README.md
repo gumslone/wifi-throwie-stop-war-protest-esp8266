@@ -35,3 +35,9 @@ for ESP8266 you can use command like this:
 ```esptool.py --port=/dev/usbport  write_flash 0x00000 ./path/firmware/firmware.bin```
 
 once its flashed hit the reset button and upload the files from the files folder. 
+
+To upload the files you can use the nodemcu-uploader python package https://github.com/kmpm/nodemcu-uploader
+
+```nodemcu-uploader --baud 115200 --port /dev/cu.usbserial-1410 upload ./CaptiveIntraweb/files/*```
+
+Hit reset and the wifi app will start.
