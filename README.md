@@ -3,7 +3,7 @@ an ESP8266/ESP8285 based digital protest throwie
 
 <b>How does it work?</b>
 
-It creates an unprotected wifi ap of your desired name, when user connects to the AP it shows a captive portal with the index.html, it also all the traffic index.htm file.
+It creates an unprotected wifi ap of your desired name, when user connects to the AP it shows a captive portal with the index.htm, it also all the traffic index.htm file.
 
 When user clicks some area on the page the audio.mp3 will play.
 
