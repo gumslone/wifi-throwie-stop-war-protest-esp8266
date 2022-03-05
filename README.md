@@ -11,7 +11,7 @@ When user clicks some area on the page the audio.mp3 will play.
 
 Any esp8266 or 8285 module (I recommend to use NodeMcu or WeMos development boards for unexpirienced users).
 
-Development boards are easy to flash/program and can be powered from USB interface directly.
+Development boards are easy to flash/program and can be powered with USB interface directly.
 
 <b>How to set it up?</b>
 
