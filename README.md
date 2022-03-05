@@ -45,7 +45,7 @@ To upload the files you can use the nodemcu-uploader python package https://gith
 
 Optionaly you can use the ESPlorer tool with UI: https://github.com/4refr0nt/ESPlorer/releases
 
-```nodemcu-uploader --baud 115200 --port /dev/usbport upload ./CaptiveIntraweb/files/*```
+```nodemcu-uploader --baud 115200 --port /dev/usbport upload ./path/files/*```
 
 Hit reset and the wifi app will start.
 
