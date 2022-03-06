@@ -1,4 +1,7 @@
 # wifi-throwie-stop-war-protest-esp8266
+
+# please share with others
+
 an ESP8266/ESP8285 based digital protest throwie
 
 <b>How does it work?</b>
