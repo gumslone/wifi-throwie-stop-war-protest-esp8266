@@ -30,7 +30,7 @@ Your dev board will have two buttons, a flash and a reset button.
 Connect your ESP8266 to your computer.
 
 Put your board into a flash mode:
-Hold the flash button and hit thee reset button, then release the flash button.
+Hold the flash button and hit the reset button, then release the flash button.
 
 for ESP8285 use command like this:
 
